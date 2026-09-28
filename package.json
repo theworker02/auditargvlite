@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/auditargvlite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Audit config/argv key checks for twelve-factor services.",
+  "bin": {
+    "auditargvlite": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/auditargvlite.git"
+  },
+  "homepage": "https://theworker02.github.io/auditargvlite/",
+  "keywords": [
+    "audit",
+    "argv",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
